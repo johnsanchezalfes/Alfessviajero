@@ -3,17 +3,43 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <!--Importar la fuente de los íconos de Google-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Importar la hojas de estilos de materialize css-->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title>Mi primer página con Materialize CSS</title>
+    <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/css.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Alfessviajero</title>
   </head>
-  <body>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+  <body class="body-viajero">
+    <div class="row">
+      <div class="row barra-superior">
+        <div class="row">
+          <div class="col s4 barra-icono">
+            <img src="img/logoalfessviajero.png" alt="logo" class="icono">
+          </div>
+          <div class="col s8 barra-nav right-align">
+            <div class="hide-on-med-and-down">
+              <a class="green waves-effect waves-light btn"><i class="material-icons left">home</i>Inicio</a>
+              <a class="green waves-effect waves-light btn"><i class="material-icons left">flight</i>Mis viajes</a>
+              <a class="green waves-effect waves-light btn"><i class="material-icons left">location_on</i>Destinos</a>
+              <a class="green waves-effect waves-light btn"><i class="material-icons left">lightbulb_outline</i>Sugeridos</a>
+            </div>
+            <div class="hide-on-large-only">
+              <a class="green waves-effect waves-light btn"><i class="material-icons left">home</i></a>
+              <a class="green waves-effect waves-light btn"><i class="material-icons left">flight</i></a>
+              <a class="green waves-effect waves-light btn"><i class="material-icons left">location_on</i></a>
+            </div>
+          </div>
+          <div class="col s5 barra-txt">
+            Viajando mis sueños
+          </div>
+        </div>
 
-  
 
-  </body>
+
+
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
 </html>
