@@ -37,9 +37,6 @@
    }
  }
 
-.redes{
-  background-color: blue;
-}
 
 .redes-img{
   width: 100%;
@@ -52,4 +49,22 @@
   width: 100%;
   height: auto;
   border-radius: 10PX;
+}
+
+.img-in {
+  background-color: red;
+}
+
+.int-img{
+  width: 100%;
+  height: auto;
+  }
+
+div[class^="in"]{
+  background-color: #ffff8d;
+  color: #1976d2;
+}
+
+.in-autor{
+  border: 1px solid blue;
 }
